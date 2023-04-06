@@ -1,0 +1,25 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form button</title>
+<link rel="stylesheet" type="text/css" href="{% static 'css/button.css' %}">
+
+</head>
+<body>
+
+
+<!-- Flex Container -->
+<div id="container">
+    <div class="button" id="button-5">
+    <div id="translate"></div>
+    <a href="{% url 'bankapp:student_form' %}">Open Form!</a>
+  </div>
+
+
+  <!-- End Container -->
+</div>
+
+</body>
+</html>
